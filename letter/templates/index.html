@@ -1,0 +1,238 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>편지로 당신의 마음을 전하세요!</h1>
+            <hr>
+            <p>편지는 당신의 진심을 전하는 가장 좋은 수단입니다.</p>
+            <a href="/write" class="btn btn-primary btn-xl page-scroll">편지쓰기</a>
+        </div>
+    </div>
+</header>
+
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">About DearYou</h2>
+                <hr class="light">
+                <p class="text-faded">DearYou는 여러분이 작성한 편지를 우편함으로 전달해 줍니다. <br>
+                사진이나 선물도 함께 보낼 수 있습니다.</p>
+                <a href="#" class="btn btn-default btn-xl">상세설명보기</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                    <h3>소중한 내용</h3>
+                    <p class="text-muted">여러분의 편지는 소중하게 보관됩니다.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                    <h3>전달</h3>
+                    <p class="text-muted">편지는 집배원을 통해 상대방의 집으로 전달됩니다.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <h3>편지 관리</h3>
+                    <p class="text-muted">DearYou에서 작성한 편지는 자신의 우편함에서 확인하고 관리할 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                    <h3>마음을 담아</h3>
+                    <p class="text-muted">여러분의 진심은 DearYou를 통해서 전해질 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-lg-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src='{% static "img/portfolio/1.jpg" %}' class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src='{% static "img/portfolio/2.jpg" %}' class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src='{% static "img/portfolio/3.jpg" %}' class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src='{% static "img/portfolio/4.jpg" %}' class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src='{% static "img/portfolio/5.jpg" %}' class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src='{% static "img/portfolio/6.jpg" %}' class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>많은 사람들이 DearYou로 마음을 전달했습니다.</h2>
+            <a href="#" class="btn btn-default btn-xl wow tada">더 많은 후기 보기</a>
+        </div>
+    </div>
+</aside>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">당신의 연락을 기다립니다!</h2>
+                <hr class="primary">
+                <p>DearYou팀은 항상 여러분을 향해서 열려있습니다. 불필요한 연락은 언제든지 환영합니다.</p>
+                <p>Copyright &copy; 2016 JoonhyukSong</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                <p>010-2428-1833</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p><a href="mailto:songjoonhyuk@gmail.com">songjoonhyuk@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- div class='container'>
+  <textarea class="form-control" rows="15"></textarea>
+
+</div>
+<div class='containter'>
+<div class="form-group">
+  <div class="col-sm-offset-1 col-sm-10">
+    <div class="radio">
+      <label>
+        <input type="radio" name='way' id="optionsRadios1" value="option1"> 전화번호로 보내기
+      </label>
+    </div>
+      <div class="col-lg-6">
+        <div class="input-group">
+         <input type="text" class="form-control" placeholder="010-1234-5678">
+         <span class="input-group-btn">
+         <button class="btn btn-default" type="button">보내기</button>
+         </span>
+        </div>/input-group
+      </div>/.col-lg-6
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <div class="col-sm-offset-1 col-sm-10">
+    <div class="radio">
+      <label>
+        <input type="radio" name="way" id="optionsRadios1" value="option2"> 주소로 보내기
+      </label>
+    </div>
+    <div class="col-lg-12">
+      <div class="input-group">
+       <input type="text" class="form-control" placeholder="주소를 입력하세요">
+       <span class="input-group-btn">
+        <button class="btn btn-default" type="button">보내기</button>
+       </span>
+      </div>/input-group
+    </div>/.col-lg-6
+    </div>
+  </div>
+</div>
+</div> -->
+{% endblock content %}
