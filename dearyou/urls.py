@@ -21,4 +21,6 @@ urlpatterns = [
     url(r'^$', 'letter.views.index'),
 	url(r'^write/$', 'letter.views.letter_new'),
     url(r'^epilogue/$', 'letter.views.epilogue'),
+    url(r'^about/$', 'letter.views.about'),
+
 ]

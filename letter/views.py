@@ -10,6 +10,8 @@ def index(request):
 def epilogue(request):
 	return render(request, 'epilogue.html')
 
+def about(request):
+	return render(request, 'about.html')
 
 def letter_new(request):
 	if request.method == 'POST':
