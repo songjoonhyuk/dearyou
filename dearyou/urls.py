@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', 'letter.views.index'),
 	url(r'^write/$', 'letter.views.letter_new'),
+    url(r'^epilogue/$', 'letter.views.epilogue'),
 ]

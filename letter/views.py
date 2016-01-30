@@ -7,6 +7,10 @@ def index(request):
 	return render(request, 'index.html')
 
 
+def epilogue(request):
+	return render(request, 'epilogue.html')
+
+
 def letter_new(request):
 	if request.method == 'POST':
 		form = PostLetter(request.POST)
@@ -17,3 +21,4 @@ def letter_new(request):
 	else:
 		form = PostLetter()
 	return render(request, 'write_letter.html', {'form':form,})
+
